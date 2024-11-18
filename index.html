@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <title>Home</title>
+                        <script src="https://cdn.tailwindcss.com"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+                    </head>
+                    <body class="bg-white">
+                        <main class="max-w-7xl mx-auto p-4 md:p-6 lg:p-8">
+  <h1 class="text-3xl font-bold text-gray-900">Simple Platformer Game</h1>
+  <section class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+    <div class="bg-gray-100 rounded shadow-md p-4">
+      <h2 class="text-lg font-bold text-gray-900">Gameplay</h2>
+      <p class="text-gray-600">Navigate through increasingly challenging levels, collecting power-ups and avoiding obstacles to reach the goal.</p>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="startGame()">Start Game</button>
+    </div>
+    <div class="bg-gray-100 rounded shadow-md p-4">
+      <h2 class="text-lg font-bold text-gray-900">Levels</h2>
+      <p class="text-gray-600">Progress through 10 unique levels, each with its own set of challenges and obstacles.</p>
+      <ul class="list-disc list-inside">
+        <li>Level 1: Forest</li>
+        <li>Level 2: Desert</li>
+        <li>Level 3: Mountain</li>
+        <li>...</li>
+      </ul>
+    </div>
+    <div class="bg-gray-100 rounded shadow-md p-4">
+      <h2 class="text-lg font-bold text-gray-900">Power-ups</h2>
+      <p class="text-gray-600">Collect power-ups to gain an advantage, such as increased speed or invincibility.</p>
+      <ul class="list-disc list-inside">
+        <li>Speed Boost</li>
+        <li>Invincibility</li>
+        <li>Shield</li>
+      </ul>
+    </div>
+  </section>
+  <section class="mt-8">
+    <h2 class="text-lg font-bold text-gray-900">Game Canvas</h2>
+    <canvas id="game-canvas" class="w-full h-96 border border-gray-400" width="800" height="600"></canvas>
+  </section>
+  <script>
+    // Game logic and rendering goes here
+  </script>
+</main>
+                    </body>
+                    </html>
